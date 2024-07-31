@@ -1,0 +1,13 @@
+prefix=E:/Personal Projects/End-To-End-Text-To-SQL-LLM-App-Using-Gemini/myvenv/Library
+exec_prefix=E:/Personal Projects/End-To-End-Text-To-SQL-LLM-App-Using-Gemini/myvenv/Library
+libdir=E:/Personal Projects/End-To-End-Text-To-SQL-LLM-App-Using-Gemini/myvenv/Library/lib
+sharedlibdir=E:/Personal Projects/End-To-End-Text-To-SQL-LLM-App-Using-Gemini/myvenv/Library/lib
+includedir=E:/Personal Projects/End-To-End-Text-To-SQL-LLM-App-Using-Gemini/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
